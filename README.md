@@ -4,6 +4,7 @@
 <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white" alt="Java 17">
 <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 3.x">
 <img src="https://img.shields.io/badge/JPA%20%2F%20Hibernate-red?style=for-the-badge" alt="JPA / Hibernate">
+<img src="https://img.shields.io/badge/Spring Security-white?style=for-the-badge" alt="Spring Security">
 <img src="https://img.shields.io/badge/MySQL-lightgrey?style=for-the-badge" alt="MySQL">
 </p>
 
