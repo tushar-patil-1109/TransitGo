@@ -1,78 +1,215 @@
-# BookBusBindaas
-deploy link: https://melodious-cassata-4c43f9.netlify.app/
+# 🚀 Book My Bus – Bus Ticket Reservation System
 
-**BookBusBindaas** is a collaborative project developed by a team of 5 dedicated individuals. This innovative online platform serves as a one-stop solution for bus ticket booking. The project is designed with both administrators and users in mind, providing a seamless and user-friendly experience.
+**Java 17 | Spring Boot | Spring Security | JPA / Hibernate | MySQL**
 
-## Key Features
+"Book My Bus is a backend-based bus ticket reservation system developed using Spring Boot, Spring Security, JPA/Hibernate, and MySQL.
 
-### Admin Panel
+The application provides a secure platform where administrators can manage buses, routes, and reservations while customers can register, search buses, book tickets, and manage their reservations.
 
-- **Bus Management:** Admins can effortlessly add new bus details, including routes, schedules, and other relevant information.
-- **Route Management:** The system allows administrators to create and manage bus routes efficiently, ensuring accurate and up-to-date route information.
-- **Bus Deletion:** Admins have the capability to remove buses from the system when necessary, maintaining a clean and updated database.
+Designed using layered architecture (Controller → Service → DAO → Entity) with emphasis on security, scalability, clean code, and data consistency."
 
-### User Account Creation
+---
 
-- **User Registration:** Users can easily create their accounts, providing personal information securely for future bookings.
-- **Ticket Booking:** The platform offers a convenient ticket booking process, enabling users to choose their preferred routes, seats, and schedules.
-- **Ticket Cancellation:** Users have the flexibility to cancel their booked tickets, adhering to defined cancellation policies.
+# ✨ Features
 
-**BookBusBindaas** aims to streamline the bus ticket booking experience, making it hassle-free for users while providing administrators with the tools they need to manage the service effectively. This project embodies teamwork and a commitment to enhancing the user experience in the world of bus travel.
+## 👨‍💻 Admin Features
 
+- 🔐 Secure Admin Login
+- 🚌 Manage Bus Details (Add, Update, Delete)
+- 🛣️ Manage Routes
+- 📅 Schedule Bus Services
+- 👥 View Registered Users
+- 🎫 View All Reservations
+- ❌ Cancel Reservations
+- 📊 Manage Bus Availability
 
-## Tech Stack
+---
 
-#### Java | Hibernate | Spring Framework | Spring Security | MySQL | Maven | Swagger UI | Lombok | HTML | CSS | JavaScript
+## 🧑‍💻 User Features
 
-## Modules
-- Login Module
-- Admin Module
-- Operator Module
-- Customer Module
+- 📝 User Registration
+- 🔐 Secure Login
+- 👤 Manage Profile
+- 🔍 Search Available Buses
+- 🛣️ Search by Source & Destination
+- 📅 Search by Journey Date
+- 🎟️ Book Bus Tickets
+- ❌ Cancel Bookings
+- 📜 View Booking History
+- ⭐ Submit Feedback
 
-## Prerequisites
+---
 
-- Java 8 or higher
+# 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Backend | Java 17, Spring Boot |
+| Security | Spring Security |
+| ORM | Spring Data JPA / Hibernate |
+| Database | MySQL |
+| Build Tool | Maven |
+| API Testing | Postman |
+
+---
+
+# 📁 Project Structure
+
+```
+project-root/
+│── src/
+│   ├── main/
+│   │   ├── java/
+│   │   │   └── com/
+│   │   │       ├── controller/
+│   │   │       ├── service/
+│   │   │       ├── dao/
+│   │   │       ├── entity/
+│   │   │       ├── exception/
+│   │   │       ├── security/
+│   │   │       └── config/
+│   │   │
+│   │   └── resources/
+│   │       ├── application.properties
+│   │       └── static/
+│
+│── README.md
+│── pom.xml
+│── .gitignore
+```
+
+---
+
+# 🖥️ API Modules
+
+## 🔐 Authentication
+
+- Admin Login
+- User Registration
+- User Login
+
+---
+
+## 🚌 Bus Management
+
+- Add Bus
+- Update Bus
+- Delete Bus
+- View Bus Details
+
+---
+
+## 🛣️ Route Management
+
+- Add Route
+- Update Route
+- Delete Route
+- View Routes
+
+---
+
+## 🎟️ Reservation Module
+
+- Book Ticket
+- View Reservation
+- Cancel Reservation
+- Reservation History
+
+---
+
+## ⭐ Feedback Module
+
+- Add Feedback
+- View Feedback
+
+---
+
+# 🚀 How to Run the Project
+
+## ✔️ Prerequisites
+
+- Java 17+
 - Maven
-- MySQL Server
+- MySQL
+- IntelliJ IDEA / Eclipse / VS Code
 
-## Installation & Run
+---
+
+## ✔️ Clone Repository
+
 ```bash
-# To run this project locally:
+git clone https://github.com/yourusername/book-my-bus.git
 
-# Clone the repository and navigate to the directory
-git clone https://github.com/pranaytandel09/tart-clover-1298
-cd tart-clover-1298
-
-# Configure your MySQL credentials in application.properties
-# located in src/main/resources directory
-# Replace with your actual MySQL credentials
-spring.datasource.url=jdbc:mysql://localhost:3306/your-database-name
-spring.datasource.username=your-username
-spring.datasource.password=your-password
-
-# Use Maven to build the project
-mvn clean install
-
-# After successful build, navigate to target directory and run the jar file
-java -jar target/decisive-iron-5903-0.0.1-SNAPSHOT.jar
-
-# Your application should be up and running at http://localhost:8080.
-```
-## API Root Endpoint
-
-```
-https://localhost:8080/
+cd Book-My-Bus
 ```
 
-```
-http://localhost:8080/swagger-ui/index.html
+---
+
+## ✔️ Configure Database
+
+Update **application.properties**
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/bookmybus
+spring.datasource.username=root
+spring.datasource.password=yourpassword
 ```
 
-## Collaborators
+---
 
-- [Pranay Tandel](https://github.com/pranaytandel09) (Team Lead)
-- [Kishor Kamble](https://github.com/kishork18)
-- [Prashant Upadhayay](https://github.com/Prashantomm)
-- [Aman Choure](https://github.com/amanacr0358)
-- [Md Faizan Raza](https://github.com/Fiza32)
+## ✔️ Run Application
+
+Run
+
+```
+BusTicketReservationSystemApplication.java
+```
+
+Application starts at
+
+```
+http://localhost:8080
+```
+
+---
+
+# 🗄️ Database
+
+- MySQL Database
+- Spring Data JPA
+- Hibernate ORM
+
+---
+
+# 🔮 Future Enhancements
+
+- JWT Authentication
+- Email Notifications
+- Online Payment Gateway
+- Seat Selection
+- Live Bus Tracking
+- REST API Documentation (Swagger)
+- Redis Caching
+- Docker Deployment
+- Microservices Architecture
+- React/Angular Frontend
+
+---
+
+# 👨‍💻 Author
+
+**Tushar Patil**
+
+🎓 Computer Engineering Graduate
+
+💻 Java | Spring Boot | Spring Security | SQL | Hibernate | JPA | REST APIs
+
+---
+
+# ❤️ Final Note
+
+Book My Bus is a backend-focused project built to demonstrate industry-level Java backend development skills using Spring Boot, Spring Security, JPA/Hibernate, and MySQL.
+
+The project follows layered architecture, RESTful API design, secure authentication, exception handling, and clean coding principles. It can be extended into a production-ready online bus reservation platform by integrating payment gateways, JWT authentication, cloud deployment, Docker, Redis, and Microservices.
+
+Happy Coding ❤️
