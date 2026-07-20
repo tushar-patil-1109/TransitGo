@@ -1,4 +1,4 @@
-# 🚀 Book My Bus – Bus Ticket Reservation System
+# 🚀 TransitGo – Bus Ticket Reservation System
 
 <p align="center">
 <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white" alt="Java 17">
