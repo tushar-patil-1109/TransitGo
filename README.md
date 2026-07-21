@@ -9,11 +9,9 @@
 <img src="https://img.shields.io/badge/MySQL-lightgrey?style=for-the-badge" alt="MySQL">
 </p>
 
-
-- ### deploy link: https://melodious-cassata-4c43f9.netlify.app/
-- TransitGo is a full-stack portfolio project demonstrating a clear separation of concerns between a RESTful Java backend and a Vanilla JavaScript frontend.
-- The platform provides a reliable environment where administrators can manage bus schedules, routes, and user details, while passengers can securely book tickets, cancel reservations, and submit feedback.
-- Designed using a layered backend architecture (Controller → Service → Repository → Model) with dedicated exception handling and session management to ensure security, scalability, and seamless data flow.
+- ### 🌐 Live Demo: https://melodious-cassata-4c43f9.netlify.app/⁠
+- TransitGo is a full-stack bus reservation platform that streamlines online ticket booking and transport management. Built with Spring Boot and Spring Security, it provides a secure, scalable backend for managing buses, routes, schedules, users, and reservations, complemented by a responsive frontend developed with HTML, CSS, and JavaScript.
+- The project demonstrates industry-standard backend development practices, including RESTful API design, layered architecture (Controller → Service → Repository → Model), Spring Data JPA, centralized exception handling, and role-based security, making it an excellent showcase of modern Java backend engineering.
 
 ---
 
