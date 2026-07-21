@@ -49,6 +49,7 @@
 
 | Layer | Technology |
 |-------|------------|
+| Frontend | HTML5, CSS3, JavaScript |
 | Backend | Java 17, Spring Boot |
 | Security | Spring Security |
 | ORM | Spring Data JPA / Hibernate |
