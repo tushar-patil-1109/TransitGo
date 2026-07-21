@@ -8,7 +8,7 @@
 <img src="https://img.shields.io/badge/MySQL-lightgrey?style=for-the-badge" alt="MySQL">
 </p>
 
-## deploy link: https://melodious-cassata-4c43f9.netlify.app/
+### deploy link: https://melodious-cassata-4c43f9.netlify.app/
 
 - TransitGo is a full-stack portfolio project demonstrating a clear separation of concerns between a RESTful Java backend and a Vanilla JavaScript frontend.
 - The platform provides a reliable environment where administrators can manage bus schedules, routes, and user details, while passengers can securely book tickets, cancel reservations, and submit feedback.
