@@ -1,7 +1,7 @@
 # 🚀 TransitGo – Bus Ticket Reservation System
 
 
-### deploy link: https://melodious-cassata-4c43f9.netlify.app/
+- ### deploy link: https://melodious-cassata-4c43f9.netlify.app/
 
 <p align="center">
 <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white" alt="Java 17">
