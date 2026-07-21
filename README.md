@@ -8,11 +8,13 @@
 <img src="https://img.shields.io/badge/MySQL-lightgrey?style=for-the-badge" alt="MySQL">
 </p>
 
-"Book My Bus is a backend-based bus ticket reservation system developed using Spring Boot, Spring Security, JPA/Hibernate, and MySQL.
+- TransitGo is a full-stack portfolio project demonstrating a clear separation of concerns between a RESTful Java backend and a Vanilla JavaScript frontend.
 
-The application provides a secure platform where administrators can manage buses, routes, and reservations while customers can register, search buses, book tickets, and manage their reservations.
+- The platform provides a reliable environment where administrators can manage bus schedules, routes, and user details, while passengers can securely book tickets, cancel reservations, and submit feedback.
 
-Designed using layered architecture (Controller → Service → DAO → Entity) with emphasis on security, scalability, clean code, and data consistency."
+- Designed using a layered backend architecture (Controller → Service → Repository → Model) with dedicated exception handling and session management to ensure security, scalability, and seamless data flow.
+
+- The project follows clean architecture principles, featuring custom exception handling, detailed service layers, and modularized frontend scripts. It serves as an excellent foundation for a production-ready reservation system.
 
 ---
 
@@ -61,27 +63,60 @@ Designed using layered architecture (Controller → Service → DAO → Entity) 
 
 # 📁 Project Structure
 
-```
+```text
 project-root/
-│── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/
-│   │   │       ├── controller/
-│   │   │       ├── service/
-│   │   │       ├── dao/
-│   │   │       ├── entity/
-│   │   │       ├── exception/
-│   │   │       ├── security/
-│   │   │       └── config/
-│   │   │
-│   │   └── resources/
-│   │       ├── application.properties
-│   │       └── static/
 │
-│── README.md
-│── pom.xml
-│── .gitignore
+├── Book-My-Bus-Backend/
+│   ├── .mvn/
+│   ├── src/
+│   │   ├── main/
+│   │   │   ├── java/
+│   │   │   │   └── com/masai/
+│   │   │   │       ├── controller/              # REST Controllers
+│   │   │   │       ├── exception/              # Global Exception Handling
+│   │   │   │       ├── model/                  # Entity Classes
+│   │   │   │       ├── repository/             # JPA Repositories
+│   │   │   │       ├── service/                # Business Logic
+│   │   │   │       └── BusTicketReservationSystemApplication.java
+│   │   │   │
+│   │   │   └── resources/
+│   │   │       ├── application.properties
+│   │   │       ├── application-dev.properties
+│   │   │       └── application-prod.properties
+│   │   │
+│   │   └── test/
+│   │
+│   ├── pom.xml
+│   ├── mvnw
+│   └── mvnw.cmd
+│
+├── Bus-Reservation-System-Frontend/
+│   ├── Admin_section/
+│   │   ├── images/
+│   │   ├── scripts/
+│   │   │   ├── AddBus.js
+│   │   │   ├── Admin_Home.js
+│   │   │   ├── route.js
+│   │   │   └── ...
+│   │   ├── styles/
+│   │   │   ├── AddnewBusStyle.css
+│   │   │   ├── bus.css
+│   │   │   └── ...
+│   │   ├── AddBus.html
+│   │   ├── Admin_Home.html
+│   │   ├── Admin_User_Details.html
+│   │   ├── bus.html
+│   │   └── route.html
+│   │
+│   └── User-Side/
+│       ├── images/
+│       ├── bookTicket.html
+│       ├── cancelTicket.html
+│       ├── feedback.html
+│       └── ...
+│
+├── README.md
+└── .gitignore
 ```
 
 ---
@@ -144,9 +179,9 @@ project-root/
 ## ✔️ Clone Repository
 
 ```bash
-git clone https://github.com/yourusername/book-my-bus.git
+git clone https://github.com/tushar-patil-1109/transitgo.git
 
-cd Book-My-Bus
+cd TransitGo
 ```
 
 ---
@@ -214,8 +249,10 @@ http://localhost:8080
 
 # ❤️ Final Note
 
-Book My Bus is a backend-focused project built to demonstrate industry-level Java backend development skills using Spring Boot, Spring Security, JPA/Hibernate, and MySQL.
+TransitGo is a backend-focused project built to demonstrate industry-level Java backend development skills using Spring Boot, Spring Security, JPA/Hibernate, and MySQL.
 
 The project follows layered architecture, RESTful API design, secure authentication, exception handling, and clean coding principles. It can be extended into a production-ready online bus reservation platform by integrating payment gateways, JWT authentication, cloud deployment, Docker, Redis, and Microservices.
+
+---
 
 Happy Coding ❤️
