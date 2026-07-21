@@ -1,8 +1,5 @@
 # 🚀 TransitGo – Bus Ticket Reservation System
 
-
-- ### deploy link: https://melodious-cassata-4c43f9.netlify.app/
-
 <p align="center">
 <img src="https://img.shields.io/badge/Java-17-blue?style=for-the-badge&logo=java&logoColor=white" alt="Java 17">
 <img src="https://img.shields.io/badge/Spring%20Boot-3.x-brightgreen?style=for-the-badge&logo=springboot&logoColor=white" alt="Spring Boot 3.x">
@@ -11,6 +8,7 @@
 <img src="https://img.shields.io/badge/MySQL-lightgrey?style=for-the-badge" alt="MySQL">
 </p>
 
+- ### deploy link: https://melodious-cassata-4c43f9.netlify.app/
 - TransitGo is a full-stack portfolio project demonstrating a clear separation of concerns between a RESTful Java backend and a Vanilla JavaScript frontend.
 - The platform provides a reliable environment where administrators can manage bus schedules, routes, and user details, while passengers can securely book tickets, cancel reservations, and submit feedback.
 - Designed using a layered backend architecture (Controller → Service → Repository → Model) with dedicated exception handling and session management to ensure security, scalability, and seamless data flow.
