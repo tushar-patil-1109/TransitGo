@@ -241,9 +241,13 @@ http://localhost:8080
 
 **Tushar Patil**
 
-🎓 Computer Engineering Graduate
+<a href="https://wa.me/+91 8378990863">
+<img src="https://img.shields.io/badge/WhatsApp-Chat%20Now-green?style=for-the-badge&logo=whatsapp" >
+</a>
 
-💻 Java | Spring Boot | Spring Security | SQL | Hibernate | JPA | REST APIs
+- 🎓 Computer Engineering Graduate
+
+- 💻 Java | Spring Boot | Spring Security | SQL | Hibernate | JPA | REST APIs
 
 ---
 
@@ -255,4 +259,7 @@ The project follows layered architecture, RESTful API design, secure authenticat
 
 ---
 
-Happy Coding ❤️
+<p align="center">
+<strong>Happy Coding ❤️</strong>
+</p>
+
